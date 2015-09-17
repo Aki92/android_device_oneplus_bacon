@@ -202,3 +202,28 @@ endif
 endif
 
 -include vendor/oneplus/bacon/BoardConfigVendor.mk
+
+#LZMA compression
+WITH_LZMA_OTA:= true
+
+#RR customizations
+TARGET_TC_ROM := 5.2
+
+TARGET_TC_KERNEL := 6.0
+
+#RR
+RROPTI := true
+
+RR_O3 := true
+
+RR_STRICT := true
+
+RR_GRAPHITE := true
+
+RR_KRAIT := true
+
+RR_PIPE := true
+
+TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
+
+RR_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
