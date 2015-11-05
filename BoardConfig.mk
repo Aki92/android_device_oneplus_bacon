@@ -210,7 +210,7 @@ WITH_LZMA_OTA:= true
 #RR customizations
 TARGET_TC_ROM := 5.2
 
-TARGET_TC_KERNEL := 6.0
+TARGET_TC_KERNEL := 5.2
 
 #RR
 RROPTI := true
