@@ -304,8 +304,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # System properties
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.hwc.mdpcomp.enable=false \
-    persist.sys.ui.hw=true \
+    persist.hwc.mdpcomp.enable=true \
     persist.timed.enable=true \
     ro.opengles.version=196608 \
     ro.use_data_netmgrd=true \
