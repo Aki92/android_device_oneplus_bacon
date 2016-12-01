@@ -192,6 +192,9 @@ ifneq ($(QCPATH),)
 # Bluetooth
 FEATURE_QCRIL_UIM_SAP_SERVER_MODE := true
 
+# Use Snapdragon LLVM for Nightlies, if available
+TARGET_USE_SDCLANG := true
+
 # QCNE
 ifeq ($(BOARD_USES_QCNE),true)
 TARGET_LDPRELOAD := libNimsWrap.so
