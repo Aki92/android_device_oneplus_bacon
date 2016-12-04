@@ -17,7 +17,10 @@
 */
 -->
 
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+ 
+    <!-- HW keys prefs-->
+    <bool name="config_hwKeysPref">true</bool>  
 
     <!-- Button illumination -->
     <bool name="config_deviceHasVariableButtonBrightness">true</bool>
@@ -305,12 +308,12 @@
     <color name="config_defaultNotificationColor">#ffffffff</color>
 
     <!-- Does the notification LED support multiple colors?
-         Used to decide if the user can change the colors -->
+         Used to decide if the user can change the colors >
     <bool name="config_multiColorNotificationLed">true</bool>
 
-    <!-- Does the battery LED support multiple colors?
-         Used to decide if the user can change the colors -->
-    <bool name="config_multiColorBatteryLed">true</bool>
+    < Does the battery LED support multiple colors?
+         Used to decide if the user can change the colors >
+    <bool name="config_multiColorBatteryLed">true</bool-->
 
     <!-- Indicate the device's Smart Cover coordinates.
          If none are provided, then the feature will be disabled.
