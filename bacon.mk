@@ -245,6 +245,9 @@ PRODUCT_PACKAGES += \
     wpa_supplicant_overlay.conf \
     p2p_supplicant_overlay.conf
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Call the proprietary setup
 $(call inherit-product-if-exists, vendor/oneplus/bacon/bacon-vendor.mk)
 
