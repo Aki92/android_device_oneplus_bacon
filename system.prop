@@ -91,3 +91,6 @@ persist.timed.enable=true
 
 # Wifi
 wifi.interface=wlan0
+
+# Hack for Youtube
+sys.display-size=3840x2160

@@ -192,6 +192,9 @@ WPA_SUPPLICANT_VERSION           := VER_0_8_X
 ifneq ($(QCPATH),)
 -include $(QCPATH)/common/msm8974/BoardConfigVendor.mk
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Bluetooth
 FEATURE_QCRIL_UIM_SAP_SERVER_MODE := true
 
