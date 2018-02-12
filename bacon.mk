@@ -67,6 +67,10 @@ PRODUCT_PACKAGES += \
     init.recovery.bacon.rc \
     ueventd.bacon.rc
 
+# Camera
+PRODUCT_PACKAGES += \
+    Camera2
+
 # Call the proprietary setup
 $(call inherit-product, vendor/oneplus/bacon/bacon-vendor.mk)
 
