@@ -31,7 +31,9 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.bacon
+    camera.bacon \
+    libshim_camera \
+    Snap
 
 # Dalvik/HWUI
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-3072-dalvik-heap.mk)
@@ -66,10 +68,6 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.recovery.bacon.rc \
     ueventd.bacon.rc
-
-# Camera
-PRODUCT_PACKAGES += \
-    Camera2
 
 # Call the proprietary setup
 $(call inherit-product, vendor/oneplus/bacon/bacon-vendor.mk)
